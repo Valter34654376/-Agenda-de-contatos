@@ -1,0 +1,135 @@
+/*===========(reseta as configurações iniciais padrão do site)=====================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/*=================================================================================*/
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*===================( Parte principai do corpo do codigo)======================== */
+body{
+    background: linear-gradient(90deg, rgba(158, 192, 201, 0.795), rgb(221, 220, 198), rgba(255, 255, 255, 0.342));
+    padding-top: 7em;   
+}
+
+html{
+    background: linear-gradient(90deg, rgba(158, 192, 201, 0.795), rgb(221, 220, 198), rgba(255, 255, 255, 0.342));
+}
+
+
+header{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1em;
+   padding-left: 15em;
+}
+
+header img{
+    height: 60px;
+    
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+/*======================================================================== */
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*====================(tudo sobre os inputs ou area de escrita============*/
+.conteiner{
+   max-width: 960px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+form{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-left: 4px;  
+}
+
+#DDD{
+    margin-left: 0.5em; 
+}
+
+#Numero-do-contato{
+    margin-left: 0.5em; 
+}
+
+form input{
+    font-size: 1.4em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: solid 2px #000;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+/*======================================================================== */
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*======================(parte do botão)================================= */
+form button{
+    background-color: rgb(44, 206, 12);
+    color: azure;
+    font-size: 1.59em;
+    font-family: bold;
+    border: none;
+    cursor:  pointer;
+    padding: 0.5em;
+    border-radius: 0.8em;
+}
+
+button:hover {
+    background-color: rgb(15, 211, 185);
+}
+/*======================================================================== */
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*                                     ||
+/*==========================(Tudo sobre a tabela)============================= */
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 1em;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    padding: 0.3em 0;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+table td img{
+    height: 60px;
+}
+
+.aprovado{
+    background-color:rgb(11, 216, 28);
+}
+
+.reprovado{
+    background-color:rgb(216, 11, 11);
+}
+/*======================================================================== */
